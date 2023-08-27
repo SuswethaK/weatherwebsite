@@ -1,4 +1,4 @@
-/* body {
+body {
     color: #333333;
     font-family: arial;
     max-width: 650px;
@@ -52,72 +52,4 @@ button {
     background: #888888;
     color: white;
     padding: 8px;
-} */
-
-/* Reset some default styling */
-body, h1, h2, h3, p, input, button {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
-
-.main-content {
-    background-color: white;
-    padding: 24px;
-    border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-form {
-    margin-top: 16px;
-}
-
-input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-right: 8px;
-}
-
-button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    border: none;
-    border-radius: 4px;
-    color: white;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-
-#message-1,
-#message-2 {
-    margin-top: 16px;
-    font-weight: bold;
-}
-
-footer {
-    margin-top: 32px;
-    color: #888;
-    text-align: center;
-}
-
-/* Media query for smaller screens */
-@media (max-width: 600px) {
-    body {
-        padding: 16px;
-    }
 }
